@@ -14,7 +14,7 @@ export default function Container() {
 
         <p> Get in Touch Today!</p>
       </div>
-      <img src='./images/cont.jpeg' className='cont' />
+      <img src={`${process.env.PUBLIC_URL}/images/Cont.jpeg`} alt="Paint Express" />
     </div>
   )
 }
