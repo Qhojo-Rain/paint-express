@@ -141,13 +141,13 @@ body{
   }
 
   .text {
-    font-size: 2.5rem; /* Smaller text size for phones */
-    margin-left: 10%;
+    font-size: 2.5rem;/* Smaller text size for phones */
+    margin-right: 2%;
   }
 
   .text-2 {
     font-size: 1rem;
-    margin-left: 20%;
+    margin-left: 10%;
     font-weight: 800;
   }
 
@@ -174,15 +174,24 @@ body{
   .ul {
     gap: 10px; /* Reduce spacing between nav items */
   }
+
+  .word{
+    font-size: 1rem;
+  }
+
+  .head{
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 768px) {
    .Paint{
-    margin-top: 80%;
+    margin-top: 50%;
    }
 
   .paint-text {
-    font-size: 1.5rem; /* Smaller text size for mobile */
+      font-size: 1.6rem;
+      padding-top: 25%;  
   }
 
   .paint-img {

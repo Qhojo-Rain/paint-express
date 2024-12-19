@@ -10,7 +10,7 @@ export default function App() {
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
     `${process.env.PUBLIC_URL}/images/shipping.jpg`,
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
-    `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
+    `${process.env.PUBLIC_URL}/images/shipping.jpg`,
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
   ];
