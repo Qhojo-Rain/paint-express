@@ -8,6 +8,9 @@ import Hero from './Hero.js';
 export default function App() {
   const images = [
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
+    `${process.env.PUBLIC_URL}/images/shipping.jpg`,
+    `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
+    `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
   ];

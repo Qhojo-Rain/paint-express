@@ -114,7 +114,8 @@ body{
 .paint-text {
   font-size: 2rem;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
+  padding-top: 7%;
 }
 
 .paint-img {
@@ -126,7 +127,7 @@ body{
 
 .paint-img img {
   width: 400px; /* Adjust width to fit the row */
-  height: auto; /* Maintain aspect ratio */
+  height: 460px; /* Maintain aspect ratio */
   border: 2px solid #ccc; /* Optional border */
   border-radius: 5px; /* Optional rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
