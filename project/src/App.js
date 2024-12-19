@@ -6,12 +6,19 @@ import Container from './Container.js'
 import Hero from './Hero.js';
 
 export default function App() {
+  const images = [
+    `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
+    `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
+    `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
+  ];
   return (
     <div>
       <Navbar />
       <Section />
       <Container />
-      <Hero />
+      <Hero 
+      images={images} 
+      alt="shinestar"/>
     </div>
   )
 };
