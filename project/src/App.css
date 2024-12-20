@@ -208,7 +208,7 @@ body{
   }
 
   .cont {
-    order: -1; /* Ensure the image appears first in the stacking order */
+    /* order: -1; Ensure the image appears first in the stacking order */
     width: 80%; /* Full width for image */
     max-width: none; /* Remove max-width constraint */
     margin-bottom: 20px; /* Add spacing between image and text */
@@ -235,6 +235,9 @@ body{
 }
 
 @media (max-width: 768px) {
+   /* .Paint{
+    margin-top: 10%;
+   } */
 
   .paint-text {
       font-size: 1.6rem;
