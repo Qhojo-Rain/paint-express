@@ -55,6 +55,8 @@ body{
 .hero{
   width: 100%; 
   height: 530px;
+  opacity: 0; /* Start hidden */
+  animation: fadeIn 2s ease-in forwards; /* Fade-in animation */
 }
 
 .overlay {
@@ -65,6 +67,8 @@ body{
   height: 100%;
    background-color: rgba(59, 57, 57, 0.5); 
    font-family: 'Open Sans';
+   transform: translateY(100%); /* Start off-screen */
+  animation: slideUp 1.5s ease-in forwards 0.5s; /* Slide-up animation with delay */
 }
 
 .text{
@@ -74,6 +78,8 @@ body{
   color: white;
   font-size: 60px;
   font-weight: 900; 
+  transform: translateY(100%); /* Start off-screen */
+  animation: slideUp 1.5s ease-in forwards 1s; /* Slide-up animation with delay */
 }
 
 .text-2{
@@ -82,29 +88,73 @@ body{
   top: 55%;
   left: 10%;
   font-size: 25px;
+  transform: translateY(100%); /* Start off-screen */
+  animation: slideUp 1.5s ease-in forwards 1.5s; /* Slide-up animation with delay */
 }
 
-.container{
+/* Fade-in animation for the hero image */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Slide-up animation for overlay and text */
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.container-2 {
   display: flex;
+  justify-content: space-between; /* Space between text and image */
+  align-items: center; /* Vertically center content */
+  gap: 20px; /* Space between text and image */
+  opacity: 0; /* Start with hidden */
+  transform: translateY(50px); /* Start slightly below */
+  transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
 }
 
-.left-side{
-  padding-top: 10%;
-  margin-left: 10%;
-  width: 40%;
+.container-2.animate {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Move to the original position */
 }
 
-.cont{
-  width: 35%;
-  height: 105%;
-  padding-top: 8%;
-  margin-left: 10%;
+.left-side {
+  flex-basis: 45%;
+  padding-top: 7%;
+  padding-right: 20px; /* Add padding to the right to avoid text touching the image */
+  margin-left: 40px; /* Add margin-left to push text a bit from the left */
 }
 
-.word{
+.cont {
+  max-width: 500px; /* Set a max-width to prevent image from being too large */
+  flex: 1; /* Allow the image to grow/shrink to fit the space */
+  width: 100%; /* Make image take up full available width */
+  height: 600px; /* Maintain aspect ratio */
+  transform: translateX(100%); /* Start off-screen */
+  transition: transform 1s ease-out; /* Slide-in animation */
+  margin-right: 40px;
+  padding-top: 7%;
+}
+
+.container-2.animate .cont {
+  transform: translateX(0); /* Slide into place */
+}
+
+.word {
   font-size: 1.1rem;
-  font-family: 'poppins';
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6; /* Improve readability */
 }
+
 
 .Paint {
   text-align: center;
@@ -151,7 +201,7 @@ body{
     font-weight: 800;
   }
 
-  .container {
+  .container-2 {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center content horizontally */
     text-align: center; /* Center-align text */
@@ -185,14 +235,12 @@ body{
 }
 
 @media (max-width: 768px) {
-   .Paint{
-    margin-top: 50%;
-   }
 
   .paint-text {
       font-size: 1.6rem;
       padding-top: 20%;  
   }
+
 
   .paint-img {
     gap: 10px; /* Reduce spacing between images */
