@@ -4,6 +4,7 @@ import Navbar from './Navbar.js'
 import Section from './Section.js'
 import Container from './Container.js'
 import Hero from './Hero.js';
+import Locate from './Locate.js';
 
 export default function App() {
   const images = [
@@ -22,6 +23,7 @@ export default function App() {
       <Hero 
       images={images} 
       alt="shinestar"/>
+      <Locate />
     </div>
   )
 };

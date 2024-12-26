@@ -183,6 +183,69 @@ body{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
+.locate-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f4f4f9; /* Soft background for a clean look */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333
+}
+
+.locate-left {
+  flex: 1;
+  padding: 20px;
+}
+
+.locate-left h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.locate-left p {
+  font-size: 1.7rem;
+  color: #555;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+/* .address{
+  margin-left: 20px;
+} */
+
+.locate-left a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.locate-left a:hover {
+  text-decoration: underline;
+}
+
+/* Right-side styles (iframe) */
+.locate-right {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column; /* Stack items vertically */
@@ -264,6 +327,23 @@ body{
 
   .paint-img img {
     width: 100%; /* Further reduce image size for small screens */
+  }
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .locate-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .locate-left, .locate-right {
+    width: 100%; /* Full width for both sections */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .locate-right iframe {
+    height: 300px; /* Reduce iframe height for smaller screens */
   }
 }
 
