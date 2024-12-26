@@ -213,7 +213,7 @@ body{
   font-size: 1.7rem;
   color: #555;
   margin-left: 35px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 /* .address{
@@ -239,11 +239,12 @@ body{
   height: 500px;
 }
 
-h1 {
+.locate-us, .heading {
   text-align: center;
   font-size: 2.5rem;
   color: #444;
   margin-bottom: 20px;
+  margin-left: 5px;
 }
 
 @media (max-width: 768px) {
@@ -256,6 +257,7 @@ h1 {
   .text {
     font-size: 2.5rem;/* Smaller text size for phones */
     margin-right: 2%;
+    margin-left: 7%;
   }
 
   .text-2 {
@@ -275,7 +277,7 @@ h1 {
     width: 80%; /* Full width for image */
     max-width: none; /* Remove max-width constraint */
     margin-bottom: 20px; /* Add spacing between image and text */
-    margin-right: 10%;
+    margin-left: 12%;
   }
 
   .left-side {
@@ -343,7 +345,23 @@ h1 {
   }
 
   .locate-right iframe {
-    height: 300px; /* Reduce iframe height for smaller screens */
+    height: 360px; /* Reduce iframe height for smaller screens */
   }
+
+  .locate-us{
+    font-size: 1.6rem;
+    font-weight: 800;
+  }
+
+  .locate-left h1{
+    font-size: 1.4rem;
+    margin-right: 27px;
+  }
+
+  .locate-left p{
+    font-size: 1.2rem;
+  }
+
+  
 }
 

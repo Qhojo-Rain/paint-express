@@ -3,14 +3,14 @@ import React from "react";
 export default function Locate() {
   return (
   <div>
-    <h1>Locate US</h1>
+    <h1 className="locate-us">Locate Us</h1>
 <div className="locate-container">
   {/* Left-side */}
   <div className="locate-left">
-    <h1>Paint Express</h1>
+    <h1 className="heading">Paint Express</h1>
     <p className="address">
       <strong>Address:</strong>
-     <br />  Otinibi Junction</p>
+     <br /> Amrahia (Otinibi Junction)</p>
     <p>
       <strong>Contact Number:</strong>
       <br />   +233 243 75 2511</p>
@@ -20,8 +20,8 @@ export default function Locate() {
     </p>
     <p>
       <strong>Website:</strong> 
-      <br /> <a href="http://eaglefc.com" target="_blank" rel="noopener noreferrer">
-        Eaglefc.com
+      <br /> <a href="http://qhojo-rain.github.io/paint-express" target="_blank" rel="noopener noreferrer">
+        paint-express.com
       </a>
     </p>
   </div>
