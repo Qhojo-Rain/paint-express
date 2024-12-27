@@ -5,7 +5,7 @@ export default function main() {
   return (
     <div className="container">
       <img
-        src={`${process.env.PUBLIC_URL}/images/b.jpeg`}
+        src={`${process.env.PUBLIC_URL}/images/b.webp`}
         alt="Paint Express"
         className='hero'
       />
