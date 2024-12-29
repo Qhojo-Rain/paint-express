@@ -112,6 +112,39 @@ body{
   }
 }
 
+.button{
+  margin-left: 11%;
+  font-family: 'Poppins';
+  
+}
+
+.whatsapp-btn {
+  position: absolute;
+  bottom: 25%; 
+  display: flex;
+  align-items: center;
+  background-color: #25d366; /* WhatsApp green */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideUp 2s ease-in forwards 1.5s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-icon {
+  width: 20px; /* Icon size */
+  height: 20px;
+  margin-right: 8px; /* Spacing between icon and text */
+}
+
+
 .container-2 {
   display: flex;
   justify-content: space-between; /* Space between text and image */
@@ -264,6 +297,13 @@ body{
     font-size: 1rem;
     margin-left: 10%;
     font-weight: 800;
+  }
+
+  .whatsapp-btn{
+    font-size: 0.8rem;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    padding: 8px 12px;
   }
 
   .container-2 {
