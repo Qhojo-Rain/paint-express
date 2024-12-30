@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/paint-express/static/css/main.65feefc4.css",
-    "main.js": "/paint-express/static/js/main.a8354c59.js",
+    "main.js": "/paint-express/static/js/main.98602922.js",
     "static/js/156.232f1912.chunk.js": "/paint-express/static/js/156.232f1912.chunk.js",
     "index.html": "/paint-express/index.html",
     "main.65feefc4.css.map": "/paint-express/static/css/main.65feefc4.css.map",
-    "main.a8354c59.js.map": "/paint-express/static/js/main.a8354c59.js.map",
+    "main.98602922.js.map": "/paint-express/static/js/main.98602922.js.map",
     "156.232f1912.chunk.js.map": "/paint-express/static/js/156.232f1912.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65feefc4.css",
-    "static/js/main.a8354c59.js"
+    "static/js/main.98602922.js"
   ]
 }
