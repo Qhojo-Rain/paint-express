@@ -5,6 +5,7 @@ import Section from './Section.js'
 import Container from './Container.js'
 import Hero from './Hero.js';
 import Locate from './Locate.js';
+import Footer from './Footer.js';
 
 export default function App() {
   const images = [
@@ -24,6 +25,7 @@ export default function App() {
       images={images} 
       alt="shinestar"/>
       <Locate />
+      <Footer />
     </div>
   )
 };
