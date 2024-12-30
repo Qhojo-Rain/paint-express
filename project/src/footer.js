@@ -11,12 +11,12 @@ export default function Foter() {
         <div className="footer-section">
           <h3>Opening Hours</h3>
           <p>Monday - Friday: 7:00 Am  6:00 PM </p>
-          <p>Saturday: 9:00 AM - 3:00 PM</p>
+          <p>Saturday: 7:30 AM - 5:30 PM</p>
           <p>Closed on Sundays</p>
         </div>
         <div className="footer-section">
           <h3>Created By</h3>
-          <p><a href="https://yourportfolio.com" target="_blank" rel="noopener noreferrer">Khojo-Rain</a></p>
+          <p><a href="https://yourportfolio.com" target="_blank" rel="noopener noreferrer">Samuel-Klu</a></p>
         </div>
       </div>
       <div className="footer-bottom">
