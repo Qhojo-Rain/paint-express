@@ -10,7 +10,7 @@ export default function App() {
   const images = [
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
     `${process.env.PUBLIC_URL}/images/shipping.jpg`,
-    `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
+    `${process.env.PUBLIC_URL}/images/sw.jpg`,
     `${process.env.PUBLIC_URL}/images/shipping.jpg`,
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,
     `${process.env.PUBLIC_URL}/images/shinestar.jpg`,

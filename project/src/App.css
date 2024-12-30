@@ -253,7 +253,7 @@ body{
   margin-left: 20px;
 } */
 
-.locate-left a {
+.locate-left a.website {
   color: #0073e6;
   text-decoration: none;
 }
@@ -261,6 +261,39 @@ body{
 .locate-left a:hover {
   text-decoration: underline;
 }
+
+.button-2{
+  margin-left: 15%;
+  font-family: 'Poppins';
+  width: 30%;
+  
+}
+
+.whatsapp-btn-2 {
+  bottom: 25%; 
+  display: flex;
+  align-items: center;
+  background-color: #25d366; /* WhatsApp green */
+  color: white;
+  padding: 10px 17px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideUp 2s ease-in forwards 1.5s;
+}
+
+.whatsapp-btn-2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-icon-2 {
+  width: 20px; /* Icon size */
+  height: 20px;
+  margin-right: 8px; /* Spacing between icon and text */
+}
+
 
 /* Right-side styles (iframe) */
 .locate-right {
@@ -306,6 +339,11 @@ body{
     padding: 8px 12px;
   }
 
+  .whatsapp-btn-2{
+    width: 200px;
+    margin-left: 0;
+  }
+
   .container-2 {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center content horizontally */
@@ -325,6 +363,8 @@ body{
     padding: 10px 20px;
     margin: 0;
   }
+
+  
 
   .ul {
     gap: 10px; /* Reduce spacing between nav items */
@@ -383,6 +423,8 @@ body{
     width: 100%; /* Full width for both sections */
     padding: 10px; /* Adjust padding */
   }
+
+  
 
   .locate-right iframe {
     height: 360px; /* Reduce iframe height for smaller screens */

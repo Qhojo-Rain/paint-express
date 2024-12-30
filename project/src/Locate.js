@@ -16,14 +16,35 @@ export default function Locate() {
       <br />   +233 243 75 2511</p>
     <p>
       <strong>Email Address:</strong> 
-      <br /> <a href="mailto:eaglesfball@gmail.com">paint@mail.com</a>
+      <br /> 
+      <a className="website"
+      href="mailto:eaglesfball@gmail.com">paint@mail.com
+      </a>
     </p>
     <p>
       <strong>Website:</strong> 
-      <br /> <a href="http://qhojo-rain.github.io/paint-express" target="_blank" rel="noopener noreferrer">
+      <br /> 
+      <a className="website"
+      href="http://qhojo-rain.github.io/paint-express" target="_blank" rel="noopener noreferrer">
         paint-express.com
       </a>
     </p>
+     {/* WhatsApp button */}
+     <div className="button-2">
+      <a
+        href="https://wa.me/+233243752511?text=Hi%20Paint%20Express!%20I%20would%20like%20to%20know%20more%20about%20your%20products."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-btn-2"
+      >
+        <img
+          src={`${process.env.PUBLIC_URL}/images/whtt.webp`}
+          alt="WhatsApp"
+          className="whatsapp-icon-2"
+        />
+        Chat with us
+      </a>
+      </div>
   </div>
 
   {/* Right-side */}
